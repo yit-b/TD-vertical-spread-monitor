@@ -13,4 +13,4 @@ except futures and forex. Some indexes are supported including SPX.
 The script sends an OSX alert any time the underlying crosses a strike. If you
 aren't using OSX, disable this component.
 
-![Example]()
+![Example](https://raw.githubusercontent.com/BorsosWyatt/TD-vertical-spread-monitor/master/vert_watcher.png)
