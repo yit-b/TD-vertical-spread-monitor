@@ -150,7 +150,7 @@ if __name__ == '__main__':
         calls = chain['callExpDateMap'].values()[0]
         puts = chain['putExpDateMap'].values()[0]
 
-        print('underlying: %.2f (%+.02f) [%s]' % (underlying, underlying_chg, ''.join(trend)))
+        print('%.2f (%+.02f) [%s]' % (underlying, underlying_chg, ''.join(trend)))
         last_underlying = underlying
 
         for opt_map, call_put in ((calls, 'C'), (puts, 'P')):
